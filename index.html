@@ -1,20 +1,21 @@
 <div id="app">
 	<div class="box form-container">
-		<section class="box main-form">
+		<section class="box main-form" id="container">
 			<form>
 				<label for="name">Name</label>
-				<input id="name" type="text" placeholder="Jane"> <br>
+				<input id="name" type="text" placeholder="Jane" required> <br>
 				<label for="email">Email</label>
-				<input id="email" type="text" placeholder="hi@email.com"> <br>
+				<input id="email" type="email" placeholder="hi@email.com" required> <br>
 				<label for="phone">Phone</label>
-				<input id="phone" type="tel" placeholder="5510101010"> <br>
+				<input id="phone" type="tel" placeholder="5510101010" required> <br>
 				<div class="shadow-btn btn">
-					<button class="send btn">Send</button>
+					<button id="sendbtn" type="button" class="send btn">Send</button>
 				</div>
 			</form>
 		</section>
 	</div>
 	<footer>
+		<p>None of the data is stored.</p>
 		<a href="https://achezeta.github.io/portafolio/">🔮 Hame</a>
 	</footer>
 </div>
